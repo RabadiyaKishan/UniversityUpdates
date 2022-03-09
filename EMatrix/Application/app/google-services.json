@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "509420016367",
+    "project_id": "university-updates-92d42",
+    "storage_bucket": "university-updates-92d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509420016367:android:689a7cb86e77ed9f74c11a",
+        "android_client_info": {
+          "package_name": "com.ematrix.infotech.uniupdates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509420016367-2dbd5o7lodnp5e5csht6fe9r24uld40v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ematrix.infotech.uniupdates",
+            "certificate_hash": "7cbfcbcfc89ebadca8540b08cc4354b63f0b1474"
+          }
+        },
+        {
+          "client_id": "509420016367-1t2ofhnerkg3su71blhil7njc47h5qhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE92sb6F_JwqM8kf0vc3YmhKHEHpbqQUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509420016367-1t2ofhnerkg3su71blhil7njc47h5qhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/BtnSaveLanguage"
+        android:layout_below="@+id/toolbar1"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Select Language"
+            android:textColor="@color/logo_color"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ChkEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:button="@drawable/checkbox_selector"
+            android:buttonTint="@color/logo_color"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="10dp"
+            android:text="English"
+            android:textColor="@color/logo_color"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/ChkGujarati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:button="@drawable/checkbox_selector"
+            android:buttonTint="@color/logo_color"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="10dp"
+            android:text="Gujarati"
+            android:textColor="@color/logo_color"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnSaveLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/logo_color"
+        android:text="CONTINUE"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

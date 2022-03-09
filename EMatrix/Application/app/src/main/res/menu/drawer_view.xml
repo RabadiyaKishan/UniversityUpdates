@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_Updates"
+        android:icon="@drawable/updates"
+        android:title="Latest Updates" />
+    <item
+        android:id="@+id/nav_university"
+        android:icon="@drawable/university"
+        android:title="Change University" />
+
+    <item
+        android:id="@+id/nav_stream"
+        android:icon="@drawable/stream"
+        android:title="Change Stream" />
+
+    <item
+        android:id="@+id/nav_lang"
+        android:icon="@drawable/languages"
+        android:title="Change Language" />
+
+    <group android:id="@+id/extra">
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+    </group>
+
+</menu>

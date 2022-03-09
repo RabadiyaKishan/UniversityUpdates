@@ -1,0 +1,6 @@
+Key : UniUpdates
+Passowrd : ematrix
+versionCode 1
+versionName 1.0
+
+Please refer once Key Creation.png image for more information
